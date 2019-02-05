@@ -2,39 +2,39 @@
 {% import 'macros.html' as macro %}
 
 {% block content%}
-
+<h1>NEWS-HIGHLIGHTS</h1>
 <div class="container">
   <div class="middle">
     <hr>
-    <h1>NEWS-HIGHLIGHTS</h1>
+
     <div class="row">
-        <div class="col-md-12 categories">
-            <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Political News</h2>
-        </div>
-        {{macro.displaySourceList(general)}}
+      <div class="col-md-12 categories">
+        <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Political News</h2>
+      </div>
+      {{macro.displaySourceList(general)}}
     </div>
     <hr>
     <div class="row" id="entertainment">
-        <div class="col-md-12 categories">
-            <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Recreation News</h2>
-        </div>
-        {{macro.displaySourceList(entertainment)}}
+      <div class="col-md-12 categories">
+        <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Recreation News</h2>
+      </div>
+      {{macro.displaySourceList(entertainment)}}
     </div>
     <hr>
     <div class="row" id="technology">
-        <div class="col-md-12 categories">
-            <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Mechanization News</h2>
-        </div>
-        {{macro.displaySourceList(technology)}}
+      <div class="col-md-12 categories">
+        <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Mechanization News</h2>
+      </div>
+      {{macro.displaySourceList(technology)}}
     </div>
     <hr>
     <div class="row" id="sports">
-        <div class="col-md-12 categories">
-            <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Sports News</h2>
-        </div>
-        {{macro.displaySourceList(sports)}}
+      <div class="col-md-12 categories">
+        <h2 style="padding-bottom:20px; text-decoration: underline; color: red;">Sports News</h2>
+      </div>
+      {{macro.displaySourceList(sports)}}
     </div>
     <hr>
-    </div>
+  </div>
 </div>
 {% endblock%}
