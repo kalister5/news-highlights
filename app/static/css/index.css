@@ -1,11 +1,11 @@
 #navMain {
-    font-family: 'Anton', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
     text-transform: uppercase;
-    color: #000000;
+    color: red;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-color: #000000;
+    background-color: red;
 }
 
 .middle {
@@ -19,17 +19,18 @@
 
 .heading {
     text-align: center;
-    font-family: 'Allura';
-    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 h1 {
-    font-family: 'Anton', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-top: 10rem;
     padding-bottom: 10rem;
     font-size: 70px;
     word-wrap: break-word;
-    color: white;
+    color: red;
+    text-decoration: underline;
 }
 
 .categories {
@@ -37,7 +38,7 @@ h1 {
     margin-top: 2rem;
 }
 .categories h2{
-    font-family: 'Anton', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .single-source {
     box-shadow: 2px 4px 12px 2px #DCDCDC;
